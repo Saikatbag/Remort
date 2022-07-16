@@ -55,7 +55,8 @@ public static int height(Node root) {
             Node root = tree.buildTree(nodes);
             System.out.println(root.data);
             preorder(root);
-            System.out.println("Hight of Tree is:" height(root));
+            System.out.print("Hight of the Tree is ");
+            System.out.println( height(root));
         }
      
     }
